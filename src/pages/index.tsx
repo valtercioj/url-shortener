@@ -21,7 +21,7 @@ export default function Home() {
   console.log(link);
   return (
     <div className="h-screen w-screen bg-gray dark:bg-bgGray">
-      <div className="flex flex-col items-center justify-evenly		 w-full h-full border border-red-600">
+      <div className="flex flex-col items-center justify-evenly w-full h-full">
         <h1 className="text-4xl lg:text-6xl font-bold text-blueText dark:text-white text-center">
           Encurtador url
         </h1>
@@ -43,7 +43,7 @@ export default function Home() {
             <button
               disabled={!link}
               onClick={handleLinkSubmit}
-              className="bg-blueText disabled:bg-blueBaby text-white font-semibold h-16 w-full lg:w-32 lg:ml-4 mt-2 lg:mt-0 text-lg font-bold"
+              className="bg-blueText disabled:bg-blueBaby text-white h-16 w-full lg:w-32 lg:ml-4 mt-2 lg:mt-0 text-lg font-bold"
             >
               Encurtar
             </button>
