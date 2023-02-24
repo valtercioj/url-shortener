@@ -15,7 +15,7 @@ const urlShortener: NextPage = () => {
   const [isMessage, setIsMessage] = useState(false);
   const nameInputRef = useRef<HTMLInputElement>(null);
 
-  const link = `http://localhost:3000/${data?.urlShortener}`;
+  const link = `https://url-shortener-valtercioj.vercel.app/${data?.urlShortener}`;
   const handleSelected = useCallback(() => {
     nameInputRef.current?.select();
   }, []);
