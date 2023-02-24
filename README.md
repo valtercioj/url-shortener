@@ -50,7 +50,7 @@ O "Encurtador URL" é um site que permite que o usuário encurte seus links long
 
 ## 🔖 Layout
 
-Você pode visualizar o projeto através [desse link](https://url-shortener-orpin-iota.vercel.app/).
+Você pode visualizar o projeto através [desse link](https://url-shortener-valtercioj.vercel.app/).
 
 ## :memo: Licença
 
